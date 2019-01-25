@@ -21,6 +21,7 @@ import top.wzmyyj.zymk.base.panel.BaseRecyclerPanel;
 
 /**
  * Created by yyj on 2018/08/01. email: 2209011667@qq.com
+ * 漫画足迹menu
  */
 
 public abstract class FindRecyclerPanel<T> extends BaseRecyclerPanel<T, FindContract.IPresenter> {

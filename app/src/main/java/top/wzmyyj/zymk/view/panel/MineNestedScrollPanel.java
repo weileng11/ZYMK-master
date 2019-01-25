@@ -9,6 +9,7 @@ import top.wzmyyj.zymk.contract.MineContract;
 
 /**
  * Created by yyj on 2018/10/29. email: 2209011667@qq.com
+ * 设置
  */
 
 public class MineNestedScrollPanel extends BasePanel<MineContract.IPresenter>

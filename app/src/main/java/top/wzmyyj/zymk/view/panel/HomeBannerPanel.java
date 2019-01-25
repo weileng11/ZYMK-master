@@ -17,6 +17,7 @@ import top.wzmyyj.zymk.contract.HomeContract;
 
 /**
  * Created by yyj on 2018/09/19. email: 2209011667@qq.com
+ * 主页banner
  */
 
 public class HomeBannerPanel extends BaseBannerPanel<HomeContract.IPresenter> {

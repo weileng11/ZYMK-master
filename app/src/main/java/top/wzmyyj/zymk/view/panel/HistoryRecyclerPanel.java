@@ -26,6 +26,7 @@ import top.wzmyyj.zymk.contract.FindContract;
 
 /**
  * Created by yyj on 2018/08/01. email: 2209011667@qq.com
+ * 漫画历史
  */
 
 public class HistoryRecyclerPanel extends FindRecyclerPanel<HistoryBean> {

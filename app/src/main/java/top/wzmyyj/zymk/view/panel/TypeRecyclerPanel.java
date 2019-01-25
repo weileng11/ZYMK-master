@@ -20,6 +20,7 @@ import top.wzmyyj.zymk.base.panel.BaseRecyclerPanel;
 
 /**
  * Created by yyj on 2018/07/06. email: 2209011667@qq.com
+ * 分类类型
  */
 
 public class TypeRecyclerPanel extends BaseRecyclerPanel<TypeBean, TypeContract.IPresenter> {

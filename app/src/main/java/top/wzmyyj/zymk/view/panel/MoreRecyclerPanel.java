@@ -24,6 +24,7 @@ import top.wzmyyj.zymk.base.panel.BaseRecyclerPanel;
 
 /**
  * Created by yyj on 2018/07/04. email: 2209011667@qq.com
+ * 更多
  */
 
 public class MoreRecyclerPanel extends BaseRecyclerPanel<BookBean, MoreContract.IPresenter> {

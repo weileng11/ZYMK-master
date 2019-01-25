@@ -25,6 +25,7 @@ import top.wzmyyj.zymk.base.panel.BasePanel;
 
 /**
  * Created by yyj on 2018/08/16. email: 2209011667@qq.com
+ * 漫画主页item显示
  */
 
 public class HomeItemPanel extends BasePanel<HomeContract.IPresenter> {
