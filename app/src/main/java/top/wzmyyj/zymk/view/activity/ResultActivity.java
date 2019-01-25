@@ -14,6 +14,7 @@ import top.wzmyyj.zymk.presenter.ResultPresenter;
 import top.wzmyyj.zymk.base.activity.BaseActivity;
 import top.wzmyyj.zymk.view.panel.ResultRecyclerPanel;
 
+//分类item点击结果页面
 public class ResultActivity extends BaseActivity<ResultContract.IPresenter> implements ResultContract.IView {
 
     @Override

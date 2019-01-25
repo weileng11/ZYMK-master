@@ -11,7 +11,7 @@ import top.wzmyyj.zymk.base.activity.BaseActivity;
 
 
 /**
- * Created by yyj on 2018/08/20. email: 2209011667@qq.com
+ * Created by yyj on 2018/08/20. email: 2209011667@qq.com  我的设置界面
  */
 
 public class SettingActivity extends BaseActivity<SettingContract.IPresenter> implements SettingContract.IView {

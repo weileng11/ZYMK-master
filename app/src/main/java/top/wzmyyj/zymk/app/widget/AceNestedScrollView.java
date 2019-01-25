@@ -23,7 +23,7 @@ import top.wzmyyj.wzm_sdk.utils.StatusBarUtil;
 
 /**
  * Created by yyj on 2018/07/16. email: 2209011667@qq.com
- * Ace 艾斯，四皇之一，月光岛领主。
+ * Ace 艾斯，四皇之一，月光岛领主。 （详情界面用到）
  */
 
 public class AceNestedScrollView extends NestedScrollView {

@@ -37,7 +37,7 @@ import top.wzmyyj.zymk.base.activity.BaseActivity;
 
 
 /**
- * Created by yyj on 2018/07/30. email: 2209011667@qq.com
+ * Created by yyj on 2018/07/30. email: 2209011667@qq.com  分类搜索页面
  */
 
 public class SearchActivity extends BaseActivity<SearchContract.IPresenter> implements SearchContract.IView {

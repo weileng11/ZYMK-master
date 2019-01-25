@@ -18,7 +18,7 @@ import top.wzmyyj.zymk.view.panel.ComicRecyclerPanel;
 
 
 /**
- * Created by yyj on 2018/08/01. email: 2209011667@qq.com
+ * Created by yyj on 2018/08/01. email: 2209011667@qq.com   查看漫画页面
  */
 
 public class ComicActivity extends BaseActivity<ComicContract.IPresenter> implements ComicContract.IView {

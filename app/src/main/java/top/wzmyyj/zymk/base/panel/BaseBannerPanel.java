@@ -7,7 +7,7 @@ import top.wzmyyj.zymk.base.contract.IBasePresenter;
 
 
 /**
- * Created by yyj on 2018/09/19. email: 2209011667@qq.com
+ * Created by yyj on 2018/09/19. email: 2209011667@qq.com Banner轮播专用
  */
 
 public abstract class BaseBannerPanel<P extends IBasePresenter> extends BannerPanel {

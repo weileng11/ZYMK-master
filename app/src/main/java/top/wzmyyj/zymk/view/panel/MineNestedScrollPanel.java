@@ -1,10 +1,9 @@
 package top.wzmyyj.zymk.view.panel;
 
 import android.content.Context;
-
 import butterknife.OnClick;
 import top.wzmyyj.zymk.R;
-import top.wzmyyj.zymk.base.panel.BaseNestedScrollPanel;
+import top.wzmyyj.zymk.base.panel.BasePanel;
 import top.wzmyyj.zymk.contract.MineContract;
 
 
@@ -12,15 +11,21 @@ import top.wzmyyj.zymk.contract.MineContract;
  * Created by yyj on 2018/10/29. email: 2209011667@qq.com
  */
 
-public class MineNestedScrollPanel extends BaseNestedScrollPanel<MineContract.IPresenter> {
+public class MineNestedScrollPanel extends BasePanel<MineContract.IPresenter>
+{
     public MineNestedScrollPanel(Context context, MineContract.IPresenter p) {
         super(context, p);
     }
-
-    @Override
-    protected int getContentViewId() {
-        return R.layout.layout_mine_content;
-    }
+	
+	@Override
+	protected int getLayoutId(){
+		 return R.layout.layout_mine_content;
+	}
+	
+    //@Override
+    //protected int getContentViewId() {
+    //    return R.layout.layout_mine_content;
+    //}
 
 
     @OnClick(R.id.img_me)

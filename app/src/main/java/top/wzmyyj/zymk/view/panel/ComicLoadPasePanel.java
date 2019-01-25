@@ -16,7 +16,7 @@ import top.wzmyyj.zymk.base.panel.BasePanel;
 
 
 /**
- * Created by yyj on 2018/08/06. email: 2209011667@qq.com
+ * Created by yyj on 2018/08/06. email: 2209011667@qq.com 查看漫画加载页面
  */
 
 public class ComicLoadPasePanel extends BasePanel<ComicContract.IPresenter> {

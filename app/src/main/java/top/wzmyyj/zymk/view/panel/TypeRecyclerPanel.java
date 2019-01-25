@@ -82,8 +82,13 @@ public class TypeRecyclerPanel extends BaseRecyclerPanel<TypeBean, TypeContract.
 
 
     protected TextView tv_empty;
-
-    @Override
+	
+	@Override
+	protected void loadMore(){
+		super.loadMore();
+	}
+	
+	@Override
     protected void setEmpty() {
         mEmpty = mInflater.inflate(R.layout.layout_empty, null);
         tv_empty = mEmpty.findViewById(R.id.tv_empty_text);

@@ -29,11 +29,13 @@ import top.wzmyyj.wzm_sdk.utils.MockUtil;
  */
 
 public class G {
-
+ 
+	//clear
     public static void clear(Context context, ImageView img) {
         Glide.with(context).clear(img);
     }
 
+    //加载图片
     public static void img(Context context, String url, ImageView img) {
         Glide.with(context)
                 .load(url)
@@ -42,6 +44,7 @@ public class G {
                 .into(img);
     }
 
+    //模糊图像
     public static void imgBlur(Context context, String url, ImageView img, int r) {
         if (url == null) return;
         Glide.with(context)
@@ -53,6 +56,7 @@ public class G {
 
     }
 
+    //本地图片
     public static void img(Context context, int res_id, ImageView img) {
         Glide.with(context)
                 .load(res_id)
@@ -60,7 +64,7 @@ public class G {
                 .into(img);
     }
 
-
+    //根据图片返回的宽高进行显示
     public static void imgfix(final Context context, final String url, final ImageView img) {
 
         final DiskCacheStrategy cache = DiskCacheStrategy.NONE;
@@ -109,7 +113,7 @@ public class G {
                 });
     }
 
-
+    //根据图片返回的宽高显示本地图片
     public static void imgfix(final Context context, final int res_id, final ImageView img) {
         final int ScreenWidth = MockUtil.getScreenWidth(context);
         GlideApp.with(context)

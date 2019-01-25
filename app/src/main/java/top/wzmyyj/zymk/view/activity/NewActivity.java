@@ -20,7 +20,7 @@ import top.wzmyyj.zymk.view.panel.NewRecyclerPanel;
 
 
 /**
- * Created by yyj on 2018/07/13. email: 2209011667@qq.com
+ * Created by yyj on 2018/07/13. email: 2209011667@qq.com  最新
  */
 
 public class NewActivity extends BaseActivity<NewContract.IPresenter> implements NewContract.IView {

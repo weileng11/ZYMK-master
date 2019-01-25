@@ -7,7 +7,7 @@ import top.wzmyyj.wzm_sdk.panel.InitPanel;
 import top.wzmyyj.zymk.base.contract.IBasePresenter;
 
 /**
- * Created by yyj on 2018/06/28. email: 2209011667@qq.com
+ * Created by yyj on 2018/06/28. email: 2209011667@qq.com  panel基类
  */
 
 public abstract class BasePanel<P extends IBasePresenter> extends InitPanel {

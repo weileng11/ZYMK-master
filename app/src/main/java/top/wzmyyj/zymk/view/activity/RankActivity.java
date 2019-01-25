@@ -20,7 +20,7 @@ import top.wzmyyj.zymk.view.panel.RankRecyclerPanel;
 
 
 /**
- * Created by yyj on 2018/07/13. email: 2209011667@qq.com
+ * Created by yyj on 2018/07/13. email: 2209011667@qq.com  排行
  */
 
 public class RankActivity extends BaseActivity<RankContract.IPresenter> implements RankContract.IView {

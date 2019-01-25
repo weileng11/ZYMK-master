@@ -8,7 +8,7 @@ import top.wzmyyj.zymk.base.contract.IBasePresenter;
 
 
 /**
- * Created by yyj on 2018/08/16. email: 2209011667@qq.com
+ * Created by yyj on 2018/08/16. email: 2209011667@qq.com  主页
  */
 
 public abstract class BaseNestedScrollPanel<P extends IBasePresenter> extends NestedScrollPanel {

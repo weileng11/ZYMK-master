@@ -44,6 +44,7 @@ import top.wzmyyj.zymk.view.panel.DetailsMuPanel;
 import top.wzmyyj.zymk.view.panel.DetailsXiPanel;
 import top.wzmyyj.zymk.view.panel.DetailsZiPanel;
 
+//详情界面
 public class DetailsActivity extends BaseActivity<DetailsContract.IPresenter> implements DetailsContract.IView {
 
     @Override
@@ -225,7 +226,7 @@ public class DetailsActivity extends BaseActivity<DetailsContract.IPresenter> im
         tv_book_star.setText(book.getStar() + "分");
 
         tl_book_tag.cleanTags();
-
+	    //tag
         if (book.getTags() != null) {
             for (String tag : book.getTags()) {
                 tl_book_tag.addTag(tag);

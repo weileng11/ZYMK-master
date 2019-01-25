@@ -8,6 +8,7 @@ import top.wzmyyj.zymk.base.contract.IBasePresenter;
 
 /**
  * Created by yyj on 2018/07/06. email: 2209011667@qq.com
+ * RecyclerPanel 基类
  */
 
 public abstract class BaseRecyclerPanel<T,P extends IBasePresenter> extends RecyclerPanel<T> {

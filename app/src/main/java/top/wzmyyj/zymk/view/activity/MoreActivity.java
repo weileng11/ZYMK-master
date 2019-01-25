@@ -17,6 +17,9 @@ import top.wzmyyj.zymk.presenter.MorePresenter;
 import top.wzmyyj.zymk.base.activity.BaseActivity;
 import top.wzmyyj.zymk.view.panel.MoreRecyclerPanel;
 
+/**
+ * Created by yyj on 2018/06/24. email: 2209011667@qq.com  更多界面
+ */
 public class MoreActivity extends BaseActivity<MoreContract.IPresenter> implements MoreContract.IView {
 
     @Override

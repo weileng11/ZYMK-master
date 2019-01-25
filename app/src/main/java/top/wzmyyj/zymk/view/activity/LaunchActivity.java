@@ -9,7 +9,7 @@ import top.wzmyyj.zymk.base.activity.BaseActivity;
 
 
 /**
- * Created by yyj on 2018/06/24. email: 2209011667@qq.com
+ * Created by yyj on 2018/06/24. email: 2209011667@qq.com  启动页
  */
 
 public class LaunchActivity extends BaseActivity<LaunchContract.IPresenter> implements LaunchContract.IView {

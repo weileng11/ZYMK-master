@@ -30,6 +30,7 @@ import top.wzmyyj.zymk.base.panel.BasePanel;
 
 /**
  * Created by yyj on 2018/07/19. email: 2209011667@qq.com
+ * 漫画详细逻辑处理页面1
  */
 
 public class DetailsXiPanel extends BasePanel<DetailsContract.IPresenter> {

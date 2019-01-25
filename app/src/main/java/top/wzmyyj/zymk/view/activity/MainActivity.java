@@ -10,7 +10,7 @@ import top.wzmyyj.zymk.view.fragment.FindFragment;
 import top.wzmyyj.zymk.view.fragment.TypeFragment;
 
 /**
- * Created by yyj on 2018/06/24. email: 2209011667@qq.com
+ * Created by yyj on 2018/06/24. email: 2209011667@qq.com  主页
  */
 
 public class MainActivity extends BaseMainActivity {

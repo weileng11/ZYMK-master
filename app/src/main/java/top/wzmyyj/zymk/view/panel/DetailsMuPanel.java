@@ -27,6 +27,7 @@ import top.wzmyyj.zymk.base.panel.BasePanel;
 
 /**
  * Created by yyj on 2018/07/19. email: 2209011667@qq.com
+ * 漫画详细逻辑处理页面2
  */
 
 public class DetailsMuPanel extends BasePanel<DetailsContract.IPresenter> {
